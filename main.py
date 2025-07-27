@@ -9,7 +9,7 @@ import os
 import uuid
 
 # 🔑 مفتاح API من https://dashboard.cohere.com/api-keys
-co = cohere.Client("gwOJ6Wr6OupLypWfEp6NeBE1jNbN4W0v2hl0vZNx")
+co = cohere.Client("Your id Key")
 
 # 🎤 تسجيل الصوت
 def record_audio(filename="input.wav", duration=5):
